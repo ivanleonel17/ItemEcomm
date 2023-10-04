@@ -76,7 +76,7 @@ a{
     width: 30px; /* Ancho ajustado */
     background-color: transparent; /* Fondo transparente */
     border-radius: 25px; /* Forma ovalada */
-    margin: 0; /* Elimina el margen del número */
+    margin: 0; 
 }
 
 .custom-message {
