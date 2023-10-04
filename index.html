@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Item Shop</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="estilos.css"> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+   <section class="container d-flex justify-content-center align-items-center custom-container">
+    <div class="row mt-5">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">Electronics</a></li>
+                <li class="breadcrumb-item"><a href="#">Audio</a></li>
+                <li class="breadcrumb-item"><a href="#">Headphones</a></li>
+                <li class="breadcrumb-item"><a href="#">Shop Headphones by type</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Airpods-max</li>
+            </ol>
+        </nav>
+        
+        <!-- Imagen principal y miniaturas (col-md-6 en pantallas medianas y grandes) -->
+        <div class="col-md-6">
+            <img src="img/imagen1.png" alt="Producto principal" class="img-fluid gray-background col-md-12"  id="main-image">
+            <!-- Miniaturas aquí -->
+            <div class="row">
+                <div class="col-3 mt-2">
+                    <img src="img/imagen1.png" alt="Miniatura 1" class="img-fluid thumbnail color-option gray-background " data-image="img/imagen1.png">
+                </div>
+                <div class="col-3 mt-2 " >
+                    <img src="img/imagen2.png" alt="Miniatura 2" class="img-fluid thumbnail color-option gray-background" data-image="img/imagen2.png">
+                </div>
+                <div class="col-3 mt-2">
+                    <img src="img/imagen3.png" alt="Miniatura 3" class="img-fluid thumbnail color-option gray-background" data-image="img/imagen3.png">
+                </div>
+                <div class="col-3 mt-2">
+                    <img src="img/imagen4.png" alt="Miniatura 4" class="img-fluid thumbnail color-option gray-background" data-image="img/imagen4.png">
+                </div>
+            </div>
+        </div>
+        <!-- Información del producto y detalles (col-md-6 en pantallas medianas y grandes) -->
+        <div class="col-md-6">
+            <!-- Información del producto aquí -->
+            <div class="col-md-12 border-bottom px-3 py-3">
+                <h1>Airpods- Max</h1>
+                <p>a perfect balance of exhilarating high-fidelity and the <br> effortless magic of AirPods.</p>
+                <div class="d-flex justify-content-start align-items-center mb-4 ">
+                    <div class="bi-star-fill" style="color: green;"></div>
+                    <div class="bi-star-fill" style="color: green;"></div>
+                    <div class="bi-star-fill" style="color: green;"></div>
+                    <div class="bi-star-fill" style="color: green;"></div>
+                    <div class="bi-star-fill" style="color: green;"></div>
+                    <p class="mb-0" style="color: green;">(121)</p>
+                </div>
+            </div>
+
+            <div class="border-bottom px-3 py-3">
+            <div class="mt-4" style="white-space: nowrap;">
+                <h2>$549.00 or 99.99/month</h2>
+            </div>
+            <div class=" mb-4 white-space: nowrap;">
+                <p>suggested payments with 6 months special financing</p>
+            </div>
+            </div>
+            <!-- Columna para detalles (precio, color, etc.) -->
+            <h5 class="mt-2 mb-2 px-3 py-2">Choose a Color</h5>
+            
+            <div class="color-options px-3 py-2 border-bottom">
+                <div class="color-circle mb-3" style="background-image: linear-gradient(to bottom, #E3544C 50%, #F7CCC9 50%);" data-image="img/imagen1.png"></div>
+                <div class="color-circle mb-3" style="background-image: linear-gradient(to bottom, #AFBFAB 50%, #E7ECE6 50%);" data-image="img/imagen2.png"></div>
+                <div class="color-circle mb-3" style="background-image: linear-gradient(to bottom, #F2F2F2 50%, #D2D3D4 50%);" data-image="img/imagen3.png"></div>
+                <div class="color-circle mb-3" style="background-image: linear-gradient(to bottom, #30506C 50%, #C5CFD6 50%);" data-image="img/imagen4.png"></div>
+            </div>
+
+            <!-- Columna para detalles (cantidad) -->
+            <div class="d-flex align-items-center mt-4 px-3 py-2">
+                <div class="custom-counter px-1 py-1">
+                    <button class="custom-button" id="decrement">-</button>
+                    <input type="number" class="custom-input text-center" id="quantity" value="1" readonly>
+                    <button class="custom-button" id="increment">+</button>
+                </div>
+                <p class="custom-message">Only <span class="naranja">12 items</span> left!<br> Don't miss it</p>
+            </div>
+
+            <!-- Botones buy y add to cart -->
+            <div class="mt-1 mb-1 mt-4 px-3 py-1">    
+                <button type="button" class="btn mr-4 mr-md-4 mb-md-0  btn-primary btn-round ">Buy Now</button>
+                <button type="button" class="btn ml-2 ml-md-4 mb-md-0  btn-outline-primary btn-roundcart ">Add to Cart</button>
+            </div>
+            
+
+            <!-- delivery info -->
+            <div class="container mt-5 ">
+                <div class="col ">
+                    <div class="col-md-8 border px-3 py-2 ">
+                        <div class="info-content">
+                            <i class="fa fa-truck"></i> <span>Free Delivery</span><br>
+                            <a href="#" >Enter your Postal Code for Delivery Availability</a>
+                        </div>
+                    </div>
+                    <div class="col-md-8 border px-3 py-3 ">
+                        <div class="info-content">
+                            <i class="bi bi-archive"></i> <span>Return Delivery</span>
+                            <br><p>Free 30 days Delivery Returns.<a href="#">Details</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="app.js"></script> 
+</body>
+</html>

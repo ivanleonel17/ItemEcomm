@@ -1,0 +1,111 @@
+/* Estilo para los círculos de colores */
+.color-circle {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none; 
+    color: inherit;
+    text-decoration: underline;
+}
+
+/* Estilo contador  */
+
+.custom-counter {
+    display: flex;
+    align-items: center;
+    background-color: #f2f2f2; 
+    border-radius: 25px; 
+    padding: 5px 10px;
+    width: 7rem;
+}
+
+.custom-button {
+    background-color: transparent;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    outline: none; 
+    color: #333; 
+    margin: 0 5px; 
+}
+.btn.btn-round {
+    height: 45px;
+    color: #fff;
+    padding: 5px 60px;
+    font-weight: bold;
+    cursor: pointer;
+    display: inline-block;
+    outline: none;
+    border: 2px solid #003D29;
+    background: #003D29;
+    border-radius: 40px;
+    margin-right: 1rem;
+    
+  }
+
+  @media (max-width: 769px) {
+    .btn.btn-round {
+        margin-bottom: 1rem;
+    }
+}
+
+  
+
+  .btn.btn-roundcart {
+    height: 45px;
+    color: #003D29;
+    padding: 5px 50px;
+    font-weight: bold;
+    cursor: pointer;
+    display: inline-block;
+    outline: none;
+    border: 2px solid #003D29;
+    border-radius: 40px; }
+
+
+.custom-input {
+    border: none;
+    text-align: center;
+    font-size: 18px;
+    width: 30px; /* Ancho ajustado */
+    background-color: transparent; /* Fondo transparente */
+    border-radius: 25px; /* Forma ovalada */
+    margin: 0; /* Elimina el margen del número */
+}
+
+.custom-message {
+    margin-left: 10px; 
+    color: #333; 
+}
+
+.naranja{
+    color: orange;
+    font-weight: bold;
+}
+
+.gray-background {
+    background-color: #f2f2f2; /* Puedes ajustar el color gris según tus preferencias */
+    padding: 10px; /* Opcional: añade espacio alrededor de la imagen */
+}
+
+
+
+.breadcrumb-item.active {
+    font-weight: bold; /* Agrega negrita */
+}
+
+/* Estilo para los íconos */
+.info-content i {
+    color: orange; /* Cambia el color de los íconos a naranja */
+}
+
+/* Estilo para "Free Delivery" y "Return Delivery" */
+.info-content span {
+    font-weight: bold; /* Hace que el texto esté en negrita */
+}
