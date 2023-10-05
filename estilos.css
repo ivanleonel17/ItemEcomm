@@ -73,9 +73,9 @@ a{
     border: none;
     text-align: center;
     font-size: 18px;
-    width: 30px; /* Ancho ajustado */
-    background-color: transparent; /* Fondo transparente */
-    border-radius: 25px; /* Forma ovalada */
+    width: 30px; 
+    background-color: transparent; 
+    border-radius: 25px; 
     margin: 0; 
 }
 
@@ -90,22 +90,22 @@ a{
 }
 
 .gray-background {
-    background-color: #f2f2f2; /* Puedes ajustar el color gris según tus preferencias */
-    padding: 10px; /* Opcional: añade espacio alrededor de la imagen */
+    background-color: #f2f2f2; 
+    padding: 10px; 
 }
 
-
+/* Agrega negrita  a la ruta*/
 
 .breadcrumb-item.active {
-    font-weight: bold; /* Agrega negrita */
+    font-weight: bold; 
 }
 
 /* Estilo para los íconos */
 .info-content i {
-    color: orange; /* Cambia el color de los íconos a naranja */
+    color: orange; 
 }
 
 /* Estilo para "Free Delivery" y "Return Delivery" */
 .info-content span {
-    font-weight: bold; /* Hace que el texto esté en negrita */
+    font-weight: bold; 
 }
